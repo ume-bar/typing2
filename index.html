@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    [v-cloak] {
+      display: none;
+    }
+  </style>
+  <meta charset="utf-8" />
+  <title>first vue app</title>
+</head>
+
+<body>
+  <div id="app">
+    <!-- <h1>{{ text }}</h1>
+    <input type="text" v-model="text" />
+    <input type="button" value="ログイン" @click="login()">
+    <br>
+    <input type="text" v-model.number="a" /> +
+    <input type="text" v-model.number="b" /> = {{ c }}
+    <input type="button" value="計算" @click="calc()">
+    <br>
+    <input type="text" v-model.number="price" />円
+    <input type="button" value="計算" @click="calc_tax()">
+    <br>
+    消費税: {{ tax }}円<br>
+    税込金額: {{ total_price }}円 -->
+    <input type="button" value="Start" @click="start">
+    {{ words }}
+    <input type="text" v-model="input" />
+    <input type="button" value="Finish" @click="finish">
+  </div>
+</body>
+<script src="https://unpkg.com/vue@2"></script>
+<script src="main.js"></script>
+
+</html>
